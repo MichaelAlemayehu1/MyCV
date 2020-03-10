@@ -27,93 +27,53 @@
                 
                     <hr>
                  
-                <h3>Hobbies and Interests</h3>
-                <ul>
-                    <li>Sport
-                        <ul>
-                            <li>Football</li>
-                            <li>basketball</li>
-                            <li>Tennis</li>
-                        </ul>
-                    </li>
-                    <li>Movies
-                        <ul>
-                            <li>Drama</li>
-                            <li>sci-fi</li>
-                        </ul>
-                    </li>
-                    <li>Games
-                        <ul>
-                            <li>COD</li>
-                            <li>Fifa</li>
-                        </ul>
-                    </li>
-                </ul>
-                <hr>
-                <h3>Work Experience</h3>
-                <table border="True">
-                <tr>
-                    <th>Date</th>
-                    <th>Job Title</th>
-                </tr>
-                    <tr>
-                        <td>
-                            January 3, 2000
-                        </td>
-                        <td>
-                            Artificial Intelligence
-                        </td>
-            
-                </tr>
-                <tr><td>February 2000</td>
-                <td>Robotics</td></tr>
-                </table>
-                <hr>
-                <h3>Top Skills</h3>
-                <!-- Tables -->
-                <table cellspacing = "10">
-                <tr>
-                    <td>
-                        Java for Web
-                    </td>
-                    
-                    <td>⭐⭐⭐</td>
-                </tr>
-                    <tr>
-                        <td>HTML, CSS and JavaScript</td>
-                    <td>
-                            ⭐⭐⭐⭐⭐
-                    </td>
-                </tr>
-                </table>
                 
-            
-                <hr>
+                
                 <h3>
                     Contact Us
                 </h3>
                 <form method = "POST" action = "mailto:michealem69@gmail.com" enctype="utf-8">
-                    <label for="FName">First Name</label><br>
-                    <input type="text" id = "FName">
+                    <table>
+                   <tr>
+                       <td><label for="FName">First Name</label></td>
+                    <td><input type="text" id = "FName" name = "name" pattern = "[a-z]{2,10}" title="2 to 10"></td>
+                </tr>
+                <tr><td> <label for="SName">Last Name</label></td>
+                   <td><input type="text" id = "SName" name = "name" pattern="[a-z]{2,10}" title="2 to 10"></td>
+                   </tr>
 
-                    <br>
-                    <label for="SName">Last Name</label><br>
-                    <input type="text" id = "SName">
-                    <br>
+                   <tr>   
+                        <td><label for = "password">password</label></td>
+                        <td> <input type="password" id = "password" pattern = "[0-9][a-z]{5,10}" title = "5 characters"></td>
+                       
+               </tr>
+                    
 
-                    <label for = "Email">Email</label><br>
-                    <input type="email" id = "Email">
-                    <br>
-                    country:
-                    <select name = "country" id = "">
+                 <tr>   
+                     <td><label for = "Email">Email</label></td>
+                     <td> <input type="email" id = "Email"></td>
+                    
+            </tr>
+         
+           <tr>   
+                <td><label for = "Phone">Phone</label></td>
+                <td> <input type="tel" id = "Phone"></td>
+               
+            </tr>
+                    <tr> <td>Country:</td>
+                    <td><select name = "Country" id = "">
                         <option value = "69">Austria</option>
                         <option value = "79">Japan</option>
-                    </select>
-                        <br>
-                    What do you Say?<br>
-                    <textarea name = "comment" id = "comment" cols="30" rows = "10"></textarea>
-                    <br>
-                    <input type = "submit" value = "Sumbit">
+                    </select></td></tr>
+
+                        
+                   <tr><td>Comments</td>
+                    <td><textarea name = "comment" id = "comment" cols="30" rows = "10"></textarea></td>
+                        </tr>
+                    
+                    
+                   <tr><td> <input type = "submit" value = "Sumbit"></td></tr>
+                    </table>
                 </form>
                 
                 <hr>
