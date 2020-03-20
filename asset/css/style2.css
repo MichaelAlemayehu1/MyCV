@@ -1,26 +1,61 @@
-*{
-    padding: 0%;
-    margin:0%;
+body>ul.nav{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+    border-bottom: solid 3px;
+    padding-left: 50px;
+    padding-bottom: 5px;
 }
-h3{
-    text-transform: uppercase;
-    font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2rem;
+body>ul.nav>li{
+    display:inline;
     text-align: center;
-    
-    padding-top:10px;
-    padding-bottom: 20px;
-    border-bottom: solid 1px;}
-
-/* body{
-    background-image: url("./asset/images/sekiro.jpg");
-} */
-img{
-    
-    float:left;
-    width:30%;
-    height:250px;
-    margin:2% 1.66%;
-    padding: 0px;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body>ul.nav>li>a{
+    text-decoration: none;
+}
+
+img{
+        float: left;
+        width:250px;
+        height:250px;
+        border-radius: 60%;
+        margin-right: 69px;
+        margin-bottom: 59px;
+        
+}
+
+.clear{
+    clear: both;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+}
+.work{
+    border-bottom: solid 3px;
+    margin-bottom: 20;
+    margin-top: 20;
+}
+.work>table{
+    border-collapse: collapse;
+    width: 30%;
+}
+
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+ .work>tr:nth-child(even){background-color: #f2f2f2;} 
+th{
+    background-color: #4CAF50;
+}
+
+.skills{
+    border-bottom:solid;
+}
+

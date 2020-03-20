@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
+.gheading{
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    
+    padding-top:10px;
+    padding-bottom: 20px;
+    border: solid 1px;}
+
+
+img{
+    
+    float:left;
+    width:30%;
+    height:250px;
+    margin:2% 1.66%;
+    padding: 0px;
+    border-radius: 5%;
+}
+body>a{
+
+}
