@@ -11,8 +11,35 @@
     
     padding-top:10px;
     padding-bottom: 20px;
-    border: solid 1px;}
+    
+    }
 
+
+    body>ul.nav{
+
+        list-style-type: none;
+    
+        margin:0;
+        padding: 0;
+        margin-top:50px;
+        margin-bottom:20px;
+        border-top: solid 2px;
+        border-bottom: solid 2px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    body>ul.nav>li{
+        display:inline;
+        text-align: center;
+        text-decoration: none;
+        font-size: large;
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body>ul.nav>li>a{
+        text-decoration: none;
+    }
 
 img{
     
@@ -22,7 +49,5 @@ img{
     margin:2% 1.66%;
     padding: 0px;
     border-radius: 5%;
-}
-body>a{
 
 }
