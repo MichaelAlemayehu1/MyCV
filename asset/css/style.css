@@ -1,0 +1,74 @@
+
+*{
+    padding: 0%;
+    margin:0%;
+}
+body>ul.nav{
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none;
+    list-style-type: none;
+    background-color: navajowhite;
+    margin:0;
+    padding: 0;
+    margin-top:50px;
+    margin-bottom:20px;
+    
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+body>ul.nav>li{
+    display:inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    margin:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body>ul.nav>li>a{
+    text-decoration: none;
+}
+body{
+    background-color:lightcyan;
+    /* border: solid 10px lightsalmon; */
+    margin: 10px;
+}
+
+section{
+    padding: 5px 30px;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* border:solid; */
+    margin-top: 30px;
+
+}
+article{
+    justify-content: center;
+    text-align: justify;
+    font-size: 15px;
+}
+/* Link Style */
+/* nav>ul>li{
+    display: inline;
+    padding:10px;
+    font-size: 20px;
+    
+}
+nav>ul>li>a{
+    text-decoration: none;
+} */
+
+.title{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.date{
+    margin-top: 5px;
+    justify-content: start;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 15px;
+}
+

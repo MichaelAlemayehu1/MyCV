@@ -3,13 +3,16 @@
     margin:0%;
 }
 body>ul.nav{
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none;
+    background-color: navajowhite;
     list-style-type: none;
     margin:0;
     padding: 0;
     margin-top:50px;
     margin-bottom:20px;
-    border-top: solid 2px;
-    border-bottom: solid 2px;
+    
     padding-left: 50px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -19,6 +22,7 @@ body>ul.nav>li{
     text-align: center;
     text-decoration: none;
     font-size: large;
+    margin:10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body>ul.nav>li>a{
