@@ -2,6 +2,11 @@
     padding: 0%;
     margin:0%;
 }
+@media screen and (min-width: 480px) {
+    body {
+        background-color: green;
+    }
+}
 body>ul.nav{
     display: -webkit-flex;
     display: flex;
