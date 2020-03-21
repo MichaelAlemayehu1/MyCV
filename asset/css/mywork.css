@@ -1,36 +1,106 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
 @media screen and (min-width: 480px) {
     body {
         background-color: green;
-    }}
+    }
+}
 
+.gheading{
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    
+    padding-top:10px;
+    padding-bottom: 20px;
+    
+    }
     body{
         background-color:lightcyan;
         /* border: solid 10px lightsalmon; */
         margin: 10px;
     }
-body>ul.nav{
-    display: -webkit-flex;
+
+
+    body>ul.nav{
+        display: -webkit-flex;
     display: flex;
-    list-style-type: none;
-    list-style-type: none;
+        list-style-type: none;
     background-color: navajowhite;
-    margin:0;
-    padding: 0;
-    margin-top:50px;
-    margin-bottom:20px;
+        margin:0;
+        padding: 0;
+        margin-top:50px;
+        margin-bottom:20px;
     
-    padding-left: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    body>ul.nav>li{
+        display:inline;
+        text-align: center;
+        text-decoration: none;
+        font-size: large;
+        margin: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body>ul.nav>li>a{
+        text-decoration: none;
+    }
+   
+
+ ul.q{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+
+    background-color: white;
 }
-body>ul.nav>li{
-    display:inline;
+
+li.one a {
+    display: block;
     text-align: center;
-    text-decoration: none;
     font-size: large;
-    margin:10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-body>ul.nav>li>a{
+    color: #000;
+    padding: 8px 0 8px 16px;
     text-decoration: none;
 }
+
+
+li.one a:hover {
+    background-color:gray;
+    color: white;
+}
+li.two a {
+    display: block;
+    text-align: center;
+    font-size: large;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+li.two a:hover {
+    background-color:gray;
+    color: white;
+}
+li.three a {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: large;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+li.three a:hover {
+    background-color:gray;
+    color: white;
+} 
