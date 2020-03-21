@@ -6,6 +6,12 @@
     body {
         background-color: green;
     }
+    
+}
+body{
+    background-color:lightcyan;
+    /* border: solid 10px lightsalmon; */
+    margin: 10px;
 }
 body>ul.nav{
     display: -webkit-flex;
@@ -39,7 +45,10 @@ table{
     margin-bottom: 10px;
     
 }
-
+h3{
+    padding-bottom: 5px;
+    
+}
 th, td{
     text-align: left;
     padding: 10px;

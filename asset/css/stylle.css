@@ -7,6 +7,7 @@
         background-color: green;
     }
 }
+
 .gheading{
     text-transform: uppercase;
     font-style: italic;
@@ -17,6 +18,11 @@
     padding-top:10px;
     padding-bottom: 20px;
     
+    }
+    body{
+        background-color:lightcyan;
+        /* border: solid 10px lightsalmon; */
+        margin: 10px;
     }
 
 
