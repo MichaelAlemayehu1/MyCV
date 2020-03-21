@@ -1,0 +1,40 @@
+body{
+    background-color: #bdc3c7;
+}
+h1{
+    background-color: #9b59b6;
+}
+h1:hover{
+    color: blue;
+}
+h2{
+    background-color: orange;
+}
+li{
+    background-color: blue;
+}
+p{
+    background-color: yellow;
+}
+input {
+    border:solid red 3px;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border: solid blue 2px;
+    
+}
+a:visited {
+    color: gray;
+}
+div>p{
+    font-size: 25px;
+}
+input[type=text]{
+    background-color:gray;
+}
+label{
+    text-transform: uppercase;
+}
